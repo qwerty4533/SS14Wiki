@@ -1,0 +1,65 @@
+nav {
+    background-color: gold;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 10;
+    color: darkgoldenrod;
+    padding: 6px 8px;
+}
+
+li a:hover {
+    background: rgb(235, 235, 0);
+    background: linear-gradient(90deg, rgba(235, 235, 0, 1) 0%, rgba(255, 141, 0, 1) 100%);
+}
+
+.logo {
+    float: left;
+}
+
+body {
+    width: 940px;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(35, 35, 2, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: goldenrod;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    border-radius: 5%;
+}
+
+.vazhno {
+    animation-name: text;
+    animation-duration: 10s;
+}
+
+.back a {
+    color: rgb(179, 134, 21);
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.back a:hover {
+    background-color: rgb(224, 138, 0);
+    width: min-content;
+}
+@media (max-width: 400px) and (orientation: port) { 
+main {
+    width: 240px;
+    font-size: 12px;
+}}

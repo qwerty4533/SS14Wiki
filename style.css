@@ -1,0 +1,169 @@
+nav {
+    background-color: gold;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    float: left;
+    text-decoration: none;
+    display: block;
+    padding: 10;
+    color: darkgoldenrod;
+    padding: 6px 8px;
+}
+
+li a:hover {
+background: rgb(235, 235, 0);
+    background: linear-gradient(90deg, rgba(235, 235, 0, 1) 0%, rgba(255, 141, 0, 1) 100%);
+}  
+
+.logo {
+    float: left;
+}
+
+body {
+    width: 940px;
+    margin: 0 auto;
+background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(35, 35, 2, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: goldenrod;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+
+}
+
+img {
+    float: right;
+    margin: 50px;
+}
+.ser a {
+                grid-template-columns: repeat(3, 1fr);
+                    grid-template-areas:
+                        "ser ser sercol";
+                        color: rgb(43, 103, 43);
+                        text-decoration: none;
+                        margin: 0px;
+                            padding: 10px;
+}
+.sercol a:hover {
+    background-color: rgb(50, 173, 50);
+    width: min-content;
+   
+}
+.crg a {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "ser ser sercol";
+    color: rgb(137, 72, 11);
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.crgcol a:hover {
+    background-color: rgb(195, 103, 10);
+    width: min-content;
+
+}
+
+.med a {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "ser ser sercol";
+    color: rgb(4, 76, 143);
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.medcol a:hover {
+    background-color: rgb(6, 199, 196);
+    width: min-content;
+
+}
+.sec a {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "ser ser sercol";
+    color: rgb(143, 4, 4);
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.seccol a:hover {
+    background-color: rgb(242, 0, 0);
+    width: min-content;
+
+}
+.eng a {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "ser ser sercol";
+    color: rgb(161, 145, 0);
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.engcol a:hover {
+    background-color: rgb(173, 242, 0);
+    width: min-content;
+
+}
+.sci a {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "ser ser sercol";
+    color: rgb(84, 0, 141);
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.scicol a:hover {
+    background-color: rgb(126, 0, 210);
+    width: min-content;
+
+}
+.cmd a {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "ser ser sercol";
+    color: rgb(0, 16, 123);
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.cmdcol a:hover {
+    background-color: rgb(0, 0, 210);
+    width: min-content;
+
+}
+.back a {
+    color:rgb(179, 134, 21);
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+}
+.back a:hover {
+    background-color:gold;
+    width: min-content;
+}
+@media (max-width: 400px) and (orientation: port) {
+    main {
+        width: 240px;
+        font-size: 12px;
+    }
+}

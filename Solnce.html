@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont {
+            display: grid;
+            width: 960px;
+            margin: auto;
+            padding: 50px;
+            border: 5px solid saddlebrown;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-areas: 
+            "header header header header header header header header";
+        }
+        .item {
+            margin: 10px;
+            padding: 20px;
+            border: solid gold;
+        }
+        .header {
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+<div class="cont">
+<div class="item header">q</div>
+<div class="item">w</div>
+<div class="item">e</div>
+<div class="item">r</div>
+<div class="item">t</div>
+</div>
+</body>
+</html>
